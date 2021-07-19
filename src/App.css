@@ -1,0 +1,89 @@
+body {
+  font-family: "Poppins",sans-serif;
+}
+.field-wrapper {
+  padding: 20px 20px;
+  width: 755px;
+  margin: 20px auto;
+  border: 1px solid #DDDDDD;
+  display: flex;
+  flex-direction: column
+}
+.field-wrapper input {
+  padding: 10px 10px;
+  max-width: 475px;
+  width: 100%;
+  border:1px solid #7FDBFF;
+  margin: 0 auto;
+  outline:none;
+}
+.field-wrapper button {
+  max-width: 500px;
+  color: white;
+  border:1px solid #7FDBFF;
+  background-color:#7FDBFF ;
+  width: 100%;
+  cursor: pointer;
+  margin: 15px auto;
+  padding: 10px 0;
+  transition: all 0.3s linear;
+}
+.field-wrapper button:hover {
+  border:1px solid #7FDBFF;
+  background-color: white;
+  color: #7FDBFF;
+}
+.todo-title {
+  text-align: center;
+  color: #7FDBFF;
+}
+.list-wrapper {
+  max-width: 800px;
+  width: 100%;
+  margin: auto;
+  margin-top: 20px;
+}
+.todo-item {
+  margin-top: 10px;
+  border: 1px solid #7FDBFF;
+  padding: 10px;
+  display: flex;
+}
+.remove-btn{
+ background-color: #7FDBFF;
+ color: white;
+ border:1px solid #7FDBFF;
+ cursor: pointer;
+ 
+}
+.todo-item * {
+  padding: 4px;
+}
+.todo-item-title {
+  flex: 1;
+  color: black;
+  font-size: 18px;
+}
+.todo-item-title.completed {
+  text-decoration: line-through;
+  color: #7FDBFF;
+}
+.title {
+  text-align: center;
+  color: #7FDBFF;
+}
+input[type="radio"]{
+visibility: hidden;
+
+}
+
+.radio-input {
+ text-align: center;
+}
+.radio-input > label {
+  font-size: 18px;
+  color: #7FDBFF;
+  text-transform: uppercase; 
+  font-weight: bold;
+  cursor: pointer;
+  }
